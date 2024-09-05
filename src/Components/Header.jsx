@@ -2,10 +2,7 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import { IoIosMenu } from "react-icons/io";
 
-const Header = () => {
-  function onToggleMenu(e) {
-    e.name = e.name === "menu" ? "close" : "menu";
-  }
+
   return (
     <header className="bg-white m-2">
       <nav className="flex justify-between items-center w-[92%] mx-auto">
@@ -41,7 +38,6 @@ const Header = () => {
             <a href="#">Contact Us</a>
           </button>
           <IoIosMenu
-            onClick={onToggleMenu}
             className="text-3xl cursor-pointer md:hidden"
           />
         </div>
