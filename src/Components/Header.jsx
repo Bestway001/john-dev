@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import { IoIosMenu } from "react-icons/io";
 
-
+const Header = () => {
   return (
     <header className="bg-white m-2">
       <nav className="flex justify-between items-center w-[92%] mx-auto">
